@@ -11,7 +11,7 @@ export class DaoCategoryPostgresql implements DaoCategory {
   }
 
   async listProductsHistory(id: string): Promise<any> {
-
+    console.warn('no implemented');
   }
 
   async list(): Promise<any> {
