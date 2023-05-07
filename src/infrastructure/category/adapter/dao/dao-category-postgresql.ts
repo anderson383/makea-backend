@@ -15,13 +15,7 @@ export class DaoCategoryPostgresql implements DaoCategory {
   }
 
   async list(): Promise<any> {
-    // const query = createQueryBuilder<CategoryListDto>('Category', 'c').select([
-    //   'c.id',
-    //   'c.name'
-    // ]);
     const data = await this.prisma.category.findMany();
-
-    // return query.getMany();
 
     return data;
   }

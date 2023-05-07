@@ -2,10 +2,10 @@
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
 
-## Description Shoppingify Backend
+## Makea Backend
 
 ##
-This project was made in order to create the backend to fulfill a challenge. [Devchallenges](https://devchallenges.io/challenges/mGd5VpbO4JnzU6I9l96x)
+This project was made in order to create the backend to fulfill a challenge
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 

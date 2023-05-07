@@ -1,7 +1,6 @@
 import { DaoProduct } from '../../../../domain/product/port/dao/dao-product';
 import { Injectable } from '@nestjs/common';
 import { PrismaService } from 'src/infrastructure/config/prisma-service';
-import { Product } from 'src/domain/product/model/product';
 
 @Injectable()
 export class DaoProductPosgresql implements DaoProduct {

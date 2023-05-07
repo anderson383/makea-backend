@@ -7,5 +7,6 @@ export class RepositoryProductPostgresql implements RepositoryProduct {
 
   async save(product: Product) {
     // mutations database
+    console.warn('methodo no implemented');
   }
 }
