@@ -1,0 +1,9 @@
+model Category {
+  id            String  @id @default(dbgenerated("gen_random_uuid()")) @db.Uuid
+  created_date  DateTime @default(now())
+  updated_date  DateTime @updatedAt
+  name          String
+  description   String
+  code          String?
+  Product Product[]
+}
