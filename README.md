@@ -5,9 +5,15 @@
 ## Makea Backend
 
 ##
-This project was made in order to create the backend to fulfill a challenge
+This project is created with the purpose of measuring technical knowledge in nestjs
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+
+## Run migrations
+
+```bash
+$ npm run prisma:migrate
+```
 
 ## Installation
 
@@ -23,19 +29,6 @@ $ npm run start:dev
 
 # production mode
 $ npm run start:prod
-```
-
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
 ```
 
 ## License
