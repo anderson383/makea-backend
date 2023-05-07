@@ -9,5 +9,5 @@ export const dataBaseConfigFactory = (configService: ConfigService) => ({
   password: configService.get(EnvVariables.DATABASE_PASSWORD),
   database: configService.get(EnvVariables.DATABASE_NAME),
   synchronize: true,
-  logging: true,
+  logging: true
 });
